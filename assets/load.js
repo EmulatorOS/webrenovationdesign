@@ -118,8 +118,8 @@ function GLOBAL() {
     (function() {
         if (l != "oui") {
             var t = $("logoB");
-            var J = $$("#logoB h1")[0];
-            var G = $$("#logoB p")[1];
+            var J = $$("#logoB img")[0];
+            var G = $$("#logoB img")[1];
             var bv = $$("#logoB i")[0];
             var w = $(t).getSize().y;
             var af = $(t).getSize().x;
@@ -1215,8 +1215,8 @@ function GLOBAL() {
         }
         if (l == "oui") {
             var t = $("logoB");
-            var J = $$("#logoB h1")[0];
-            var G = $$("#logoB p")[1];
+            var J = $$("#logoB img")[0];
+            var G = $$("#logoB img")[1];
             var w = $(t).getSize().y;
             var af = $(t).getSize().x;
             var by = new TimelineLite();
