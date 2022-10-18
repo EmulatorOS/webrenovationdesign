@@ -87,20 +87,20 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 #bandeC {width:100%; height:100%; position:fixed; top:0; left:0; background-color:#fff; z-index:499; display:none}
 	.H #bandeC {display:block}
 	
-#gallery{margin-left:356px; margin-right:87px; height:100%; width:auto; overflow:hidden; position:relative; z-index:50}
-	#gallery img {width:2500px; height:1659px; position:absolute; top:50%; left:50%; margin-top:-829px; margin-left:-1250px; transform-origin: 50% 50%; visibility:hidden; z-index:50}	
-	#gallery #prem {visibility:visible}
+#galerieAccueil{margin-left:356px; margin-right:87px; height:100%; width:auto; overflow:hidden; position:relative; z-index:50}
+	#galerieAccueil img {width:2500px; height:1659px; position:absolute; top:50%; left:50%; margin-top:-829px; margin-left:-1250px; transform-origin: 50% 50%; visibility:hidden; z-index:50}	
+	#galerieAccueil #prem {visibility:visible}
 		
 #intro { position:relative; background-color: rgba(41, 42, 63, 0.89); color:#FFF; z-index:100; margin-left:356px;}
 .H #intro {visibility:hidden; margin-left:0; left:356px; position:fixed; bottom:-50px; width:50%;}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:78px; margin-right:78px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:78px; margin-right:78px}
 	#intro h3 {padding-top:60px; font-weight:300; font-size:1.7em; letter-spacing:0.06em}
 	#intro p {margin-top:29px; font-weight:300; font-size:1.05em; line-height:2.1em; letter-spacing:0.04em; display:block;}
 	#intro .suite {margin-top:3px; font-weight:500; font-size:0.9em; letter-spacing:0.05em; display:inline-block; padding-left:17px; background-image:url(../Images/fl1.png); background-position:0px 50%; background-repeat:no-repeat; background-size:6px; margin-bottom:120px; cursor:pointer}
 		#intro .suite i {font-style:normal;padding-bottom:2px; position:relative}
 		#intro .suite i b { background-color:#FFF; width:100%; height:1px; position:absolute; bottom:0; left:0}
 	
-#content {margin-top:200px; margin-left:356px; margin-right:87px}
+#contenu {margin-top:200px; margin-left:356px; margin-right:87px}
 .bandeauscroll{position:relative; margin-top:200px}	
 	#valeurs1 {position:relative; width:50%;float:left; background-color:#efefef; display:block; margin-top:0px}
 	#valeurs2 {position:relative; width:50%;float:left; background-color:#fff; display:block; margin-top:0px}
@@ -144,11 +144,11 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 
 
 /* RÃ©alisations */
-#contentrea {margin-left:356px; margin-right:87px; background-color:#f3f3f3; padding-top:45px; z-index:30}
-.H #contentrea {visibility:hidden}
+#contenurea {margin-left:356px; margin-right:87px; background-color:#f3f3f3; padding-top:45px; z-index:30}
+.H #contenurea {visibility:hidden}
 
-	#contentrea h1 {font-family:"Vo", Georgia, serif; font-size:2.6em; letter-spacing:0.13em; text-transform:uppercase; display:block; padding-bottom:0px; line-height:1.2em; color:#000000; padding-left:60px; padding-top:7px; position:relative}
-		#contentrea h1 i {position:absolute; top:0; left:0; width:60px; height:4px; background-color:#292a3f; display:block}
+	#contenurea h1 {font-family:"Vo", Georgia, serif; font-size:2.6em; letter-spacing:0.13em; text-transform:uppercase; display:block; padding-bottom:0px; line-height:1.2em; color:#000000; padding-left:60px; padding-top:7px; position:relative}
+		#contenurea h1 i {position:absolute; top:0; left:0; width:60px; height:4px; background-color:#292a3f; display:block}
 
 	#listeProjets .colG {float:left; width:39%; margin-left:8%; margin-right:4%; padding:50px 0 100px 0}
 	#listeProjets .colD {float:left; width:39%; margin-right:4%; padding:50px 0 100px 0}
@@ -163,15 +163,15 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 			#listeProjets a .desc sup {text-transform:lowercase}
 			#listeProjets a .desc i {display:block; padding-top:8px; font-size:0.7em; letter-spacing:0.05em; text-transform:uppercase; font-style:normal; font-weight:500}
 			#listeProjets a .desc b { display:block;padding:25px 27px 0 27px; color:#FFF; background-color:#292a3f; font-family:"Vo", Georgia, serif; font-size:1.6em; letter-spacing:0.1em; text-transform:uppercase; font-weight:normal; line-height:1.4em}
-			#contentrea .bordG, #contentrea .bordD, #contentrea .bordH, #contentrea .bordB {background-color:#FFF; z-index:70; position:absolute}
-			#contentrea .bordG {top:0; height:100%; width:0px; left:0}
-			#contentrea .bordD {top:0; height:100%; width:0px; right:0}
-			#contentrea .bordH {top:0; height:0px; width:100%; left:0}
-			#contentrea .bordB {bottom:0; height:0px; width:100%; left:0}
+			#contenurea .bordG, #contenurea .bordD, #contenurea .bordH, #contenurea .bordB {background-color:#FFF; z-index:70; position:absolute}
+			#contenurea .bordG {top:0; height:100%; width:0px; left:0}
+			#contenurea .bordD {top:0; height:100%; width:0px; right:0}
+			#contenurea .bordH {top:0; height:0px; width:100%; left:0}
+			#contenurea .bordB {bottom:0; height:0px; width:100%; left:0}
 			
 /* Projet */
-#contentprojet {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
-.H #contentprojet {visibility:hidden}
+#contenuprojet {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
+.H #contenuprojet {visibility:hidden}
 	#intprojet .grande {width:100%; position:relative; overflow:hidden}
 		.grande img {width:100%; position:relative; z-index:20}
 		.grande #flecheProjet { position:absolute; bottom:61px; left:50%; margin-left:-55px; width:110px; height:110px; z-index:21; display:block; cursor:pointer}
@@ -195,7 +195,7 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 		#intprojet .deux .imgG {width:45%; float:left}
 		#intprojet .deux .imgD {width:45%; float:right}
 		
-	#intprojet #prec, #contentprojet #suiv {background-color:#7e938c; font-size:0.8em; text-transform:uppercase; letter-spacing:0.18em; font-weight:400; color:#FFF; 
+	#intprojet #prec, #contenuprojet #suiv {background-color:#7e938c; font-size:0.8em; text-transform:uppercase; letter-spacing:0.18em; font-weight:400; color:#FFF; 
 		margin:20px 0 35px 0; position:relative; display:inline-block; overflow:hidden}	
 		
 		#intprojet #prec {float:left; }
@@ -205,8 +205,8 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 		#intprojet #prec i, #intprojet #suiv i { position:absolute; background-color:#000; width:100%; height:100%; display:block; top:100%; left:0; z-index:9; display:block}
 
 /* Show */
-#contentshow {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
-.H #contentshow {visibility:hidden}
+#contenushow {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
+.H #contenushow {visibility:hidden}
 	.introshow {width:100%; position:relative; overflow:hidden; background-color:#515260}
 	.margeshowbas {padding-bottom:150px}
 	.introshow img {width:100%; position:relative; z-index:20}
@@ -245,8 +245,8 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 		#NbMax {display:none}	
 
 /* DÃ©marche*/					
-#contentdem {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
-.H #contentdem {visibility:hidden}	
+#contenudem {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
+.H #contenudem {visibility:hidden}	
 	#intdem h1 {margin-left:200px; font-family:"Vo", Georgia, serif; font-size:2.5em; letter-spacing:0.10em; text-transform:uppercase; font-weight:normal; line-height:1.4em; color:#000; padding-bottom:15px; display:inline-block; padding-top:148px}
 	#intdem h2 {margin-left:200px; font-size:1.35em; letter-spacing:0.11em; font-weight:400; line-height:1.4em; color:#000; padding-top:27px; display:block; position:relative;
 	padding-bottom:4px; z-index:9; overflow:visible}
@@ -284,8 +284,8 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 		
 
 /* Cuisines */					
-#contentcui {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
-.H #contentcui {visibility:hidden}	
+#contenucui {margin-left:356px; margin-right:87px; background-color:#f3f3f3; z-index:30}
+.H #contenucui {visibility:hidden}	
 	.intcui2 { margin-top:150px}
 	.intcui1 h1 {margin-left:200px; font-family:"Vo", Georgia, serif; font-size:2.5em; letter-spacing:0.10em; text-transform:uppercase; font-weight:normal; line-height:1.4em; color:#000; padding-bottom:15px; display:inline-block; padding-top:148px}
 	.intcui1 h2 {margin-left:200px; font-size:1.35em; letter-spacing:0.11em; font-weight:400; line-height:1.4em; color:#000; padding-top:27px; display:block; position:relative;
@@ -314,13 +314,13 @@ h1, h2, h3, h4 {padding:0; margin:0; font-size:1em; font-weight:normal; line-hei
 	.margeB1 {margin-bottom:150px}
 		
 /* Contact */ 
-#contentcont {margin-left:356px; margin-right:87px; background-color:#28293d; background-image:url(../Images/Contact-RSD-agencement-architecte-interieur-Lyon.jpg); background-repeat:no-repeat; background-position:center; background-size:cover; color:#fff; z-index:30; min-height:100%}
-.H #contentcont {visibility:hidden}
+#contenucont {margin-left:356px; margin-right:87px; background-color:#28293d; background-image:url(../Images/Contact-RSD-agencement-architecte-interieur-Lyon.jpg); background-repeat:no-repeat; background-position:center; background-size:cover; color:#fff; z-index:30; min-height:100%}
+.H #contenucont {visibility:hidden}
 
 	#contactint{width:1070px; margin:0 auto}
-	#contentcont h1 {font-weight:400; letter-spacing:0.03em; display:block; padding:120px 0 0 0}
-		#contentcont h1 strong {font-size:1.9em; font-weight:normal}
-		#contentcont h1 span {font-size:1.3em}
+	#contenucont h1 {font-weight:400; letter-spacing:0.03em; display:block; padding:120px 0 0 0}
+		#contenucont h1 strong {font-size:1.9em; font-weight:normal}
+		#contenucont h1 span {font-size:1.3em}
 		
 	#contactG {float:left; width:460px; -webkit-user-select:text; -moz-user-select:text;  -khtml-user-select:text; -ms-user-select:text}
 		#contactG div {margin-top:40px; padding-top:10px; padding-left:45px; position:relative; line-height:2em; letter-spacing:0.03em; font-weight:300; font-size:1.1em}
@@ -395,14 +395,14 @@ body {font-size:0.85em}
 	
 		
 /* Accueil */
-#gallery{margin-left:302px; margin-right:74px}
+#galerieAccueil{margin-left:302px; margin-right:74px}
 .H #intro { left:302px;bottom:-42px}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:66px; margin-right:66px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:66px; margin-right:66px}
 	#intro h3 {padding-top:51px}
 	#intro p {margin-top:24px}
 	#intro .suite {margin-top:2px; padding-left:14px; background-size:5px; margin-bottom:102px}	
 
-#content {margin-top:170px; margin-left:302px; margin-right:74px}
+#contenu {margin-top:170px; margin-left:302px; margin-right:74px}
 .bandeauscroll{margin-top:170px}	
 		#valeurs1 h2, #valeurs2 h2 {padding-top:85px}
 		#valeurs1 p, #valeurs2 p {margin-top:24px; padding-bottom:85px}
@@ -435,9 +435,9 @@ body {font-size:0.85em}
 
 
 /* RÃ©alisations */
-#contentrea {margin-left:302px; margin-right:74px; padding-top:38px}
-	#contentrea h1 {padding-left:51px; padding-top:6px}
-		#contentrea h1 i {width:51px; height:3px}
+#contenurea {margin-left:302px; margin-right:74px; padding-top:38px}
+	#contenurea h1 {padding-left:51px; padding-top:6px}
+		#contenurea h1 i {width:51px; height:3px}
 	#listeProjets .colG {padding:42px 0 85px 0}
 	#listeProjets .colD {padding:42px 0 85px 0}
 		#listeProjets li {margin-bottom:114px}
@@ -446,7 +446,7 @@ body {font-size:0.85em}
 			#listeProjets a .desc b { padding:21px 23px 0 23px; }
 
 /* Projet */
-#contentprojet {margin-left:302px; margin-right:74px}
+#contenuprojet {margin-left:302px; margin-right:74px}
 		.grande #flecheProjet {bottom:51px; margin-left:-50px; width:100px; height:100px}
 	#intprojet h2 {padding-top:80px; padding-bottom:25px}
 	#traitProj {width:200px}	
@@ -454,12 +454,12 @@ body {font-size:0.85em}
 	#intprojet p {padding:60px 0; width:55%}
 	#intprojet .semi {margin:60px auto}
 	#intprojet .deux {margin:160px auto}
-	#intprojet #prec, #contentprojet #suiv {margin:18px 0 30px 0}	
+	#intprojet #prec, #contenuprojet #suiv {margin:18px 0 30px 0}	
 		#intprojet #prec span {padding:18px 115px 18px 70px; background-size:14px}
 		#intprojet #suiv span {padding:18px 70px 18px 130px; background-size:14px}
 
 /* Show */
-#contentshow {margin-left:302px; margin-right:74px}
+#contenushow {margin-left:302px; margin-right:74px}
 	.margeshowbas {padding-bottom:120px}
 	.introshow h1 {bottom:70px}
 	.introshow h1 strong {padding-bottom:7px}
@@ -475,7 +475,7 @@ body {font-size:0.85em}
 	#zoomsuiv {width:60px; height:60px; background-size:60px; margin-top:-30px; padding:15px}
 
 /* DÃ©marche*/					
-#contentdem {margin-left:302px; margin-right:74px}	
+#contenudem {margin-left:302px; margin-right:74px}	
 	#intdem h1 {margin-left:170px; padding-bottom:14px; padding-top:126px}
 	#intdem h2 {margin-left:170px; padding-top:23px; padding-bottom:3px}
 		#intdem h2 i {width:63px; height:4px}
@@ -495,7 +495,7 @@ body {font-size:0.85em}
 	#demphotos4 {margin-top:85px;padding-bottom:136px}
 
 /* Cuisines */					
-#contentcui {margin-left:302px; margin-right:74px}
+#contenucui {margin-left:302px; margin-right:74px}
 	.intcui2 { margin-top:130px}
 	.intcui1 h1 {margin-left:170px; padding-bottom:13px; padding-top:130px}
 	.intcui1 h2 {margin-left:170px; padding-top:23px}
@@ -510,9 +510,9 @@ body {font-size:0.85em}
 	.margeB1 {margin-bottom:120px}
 
 /* Contact */ 
-#contentcont {margin-left:302px; margin-right:74px}
+#contenucont {margin-left:302px; margin-right:74px}
 	#contactint{width:910px}
-	#contentcont h1 {padding:108px 0 0 0}
+	#contenucont h1 {padding:108px 0 0 0}
 	#contactG {width:390px}
 		#contactG div {margin-top:35px; padding-top:8px; padding-left:40px}
 		#contactG div .trait {width:40px}
@@ -569,13 +569,13 @@ body {font-size:0.8em}
 	#mentions {padding-top:23px; margin-top:71px}		
 		
 /* Accueil */
-#gallery{margin-left:284px; margin-right:70px}	
+#galerieAccueil{margin-left:284px; margin-right:70px}	
 .H #intro { left:284px;bottom:-39px}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:62px; margin-right:62px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:62px; margin-right:62px}
 	#intro h3 {padding-top:48px}
 	#intro p {margin-top:23px}
 	#intro .suite {margin-top:2px; padding-left:13px; background-size:4px; margin-bottom:96px}	
-#content {margin-top:160px; margin-left:284px; margin-right:70px}
+#contenu {margin-top:160px; margin-left:284px; margin-right:70px}
 .bandeauscroll{margin-top:160px}	
 		#valeurs1 h2, #valeurs2 h2 {padding-top:80px}
 		#valeurs1 p, #valeurs2 p {margin-top:23px; padding-bottom:80px}
@@ -605,9 +605,9 @@ body {font-size:0.8em}
 #equipephoto {padding:71px}	
 
 /* RÃ©alisations */
-#contentrea {margin-left:284px; margin-right:70px; padding-top:35px}
-	#contentrea h1 {padding-left:48px; padding-top:5px}
-		#contentrea h1 i {width:48px; height:3px}
+#contenurea {margin-left:284px; margin-right:70px; padding-top:35px}
+	#contenurea h1 {padding-left:48px; padding-top:5px}
+		#contenurea h1 i {width:48px; height:3px}
 	#listeProjets .colG {padding:40px 0 80px 0}
 	#listeProjets .colD {padding:40px 0 80px 0}
 		#listeProjets li {margin-bottom:110px}
@@ -616,7 +616,7 @@ body {font-size:0.8em}
 			#listeProjets a .desc b { padding:20px 21px 0 21px; }
 
 /* Projet */
-#contentprojet {margin-left:284px; margin-right:70px}
+#contenuprojet {margin-left:284px; margin-right:70px}
 		.grande #flecheProjet {bottom:48px; margin-left:-40px; width:80px; height:80px}
 	#intprojet h2 {padding-top:70px; padding-bottom:20px}
 	#traitProj {width:160px}	
@@ -624,12 +624,12 @@ body {font-size:0.8em}
 	#intprojet p {padding:50px 0; width:55%}
 	#intprojet .semi {margin:50px auto}
 	#intprojet .deux {margin:140px auto}
-	#intprojet #prec, #contentprojet #suiv {margin:15px 0 25px 0}	
+	#intprojet #prec, #contenuprojet #suiv {margin:15px 0 25px 0}	
 		#intprojet #prec span {padding:18px 100px 18px 70px; background-size:13px}
 		#intprojet #suiv span {padding:18px 70px 18px 115px; background-size:13px}	
 		
 /* Show */
-#contentshow {margin-left:284px; margin-right:70px}
+#contenushow {margin-left:284px; margin-right:70px}
 .margeshowbas {padding-bottom:100px}
 	.introshow h1 {bottom:50px}
 	.introshow h1 strong {padding-bottom:5px}
@@ -645,7 +645,7 @@ body {font-size:0.8em}
 	#zoomsuiv {width:50px; height:50px; background-size:50px; margin-top:-25px; padding:15px}
 
 /* DÃ©marche*/					
-#contentdem {margin-left:284px; margin-right:70px}	
+#contenudem {margin-left:284px; margin-right:70px}	
 	#intdem h1 {margin-left:160px; padding-bottom:13px; padding-top:118px}
 	#intdem h2 {margin-left:160px; padding-top:24px; padding-bottom:3px}
 		#intdem h2 i {width:60px; height:4px}
@@ -665,7 +665,7 @@ body {font-size:0.8em}
 	#demphotos4 {margin-top:80px;padding-bottom:120px}
 	
 /* Cuisines */					
-#contentcui {margin-left:284px; margin-right:70px}
+#contenucui {margin-left:284px; margin-right:70px}
 	.intcui2 { margin-top:120px}
 	.intcui1 h1 {margin-left:160px; padding-bottom:10px; padding-top:120px}
 	.intcui1 h2 {margin-left:160px; padding-top:20px}
@@ -680,7 +680,7 @@ body {font-size:0.8em}
 	.margeB1 {margin-bottom:110px}
 	
 /* Contact*/	
-#contentcont {margin-left:284px; margin-right:70px}			
+#contenucont {margin-left:284px; margin-right:70px}			
 }
 
 @media screen and (max-width: 1450px) {
@@ -714,13 +714,13 @@ body {font-size:0.75em}
 	#mentions {padding-top:20px; margin-top:60px}		
 		
 /* Accueil */
-#gallery{margin-left:267px; margin-right:66px}
+#galerieAccueil{margin-left:267px; margin-right:66px}
 .H #intro { left:267px;bottom:-36px}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:50px; margin-right:50px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:50px; margin-right:50px}
 	#intro h3 {padding-top:40px}
 	#intro p {margin-top:20px; line-height:1.9em}
 	#intro .suite {margin-top:2px; padding-left:13px; background-size:4px; margin-bottom:85px}	
-#content {margin-top:150px; margin-left:267px; margin-right:66px}
+#contenu {margin-top:150px; margin-left:267px; margin-right:66px}
 .bandeauscroll{margin-top:150px}	
 		#valeurs1 h2, #valeurs2 h2 {padding-top:50px}
 		#valeurs1 p, #valeurs2 p {margin-top:20px; padding-bottom:50px; line-height:1.9em}
@@ -752,9 +752,9 @@ body {font-size:0.75em}
 #equipephoto {padding:65px}	
 
 /* RÃ©alisations */
-#contentrea {margin-left:267px; margin-right:66px; padding-top:32px}
-	#contentrea h1 {padding-left:40px; padding-top:5px}
-		#contentrea h1 i {width:40px; height:3px}
+#contenurea {margin-left:267px; margin-right:66px; padding-top:32px}
+	#contenurea h1 {padding-left:40px; padding-top:5px}
+		#contenurea h1 i {width:40px; height:3px}
 	#listeProjets .colG {padding:35px 0 65px 0}
 	#listeProjets .colD {padding:35px 0 65px 0}
 		#listeProjets li {margin-bottom:100px}
@@ -763,7 +763,7 @@ body {font-size:0.75em}
 			#listeProjets a .desc b { padding:18px 18px 0 18px; }
 
 /* Projet */
-#contentprojet {margin-left:267px; margin-right:66px}
+#contenuprojet {margin-left:267px; margin-right:66px}
 	.grande #flecheProjet {bottom:40px; margin-left:-35px; width:70px; height:70px}
 	#intprojet h2 {padding-top:60px; padding-bottom:15px}
 	#traitProj {width:100px}	
@@ -771,19 +771,19 @@ body {font-size:0.75em}
 	#intprojet p {padding:30px 0; width:60%}
 	#intprojet .semi {margin:30px auto}
 	#intprojet .deux {margin:90px auto}
-	#intprojet #prec, #contentprojet #suiv {margin:15px 0 25px 0}	
+	#intprojet #prec, #contenuprojet #suiv {margin:15px 0 25px 0}	
 		#intprojet #prec span {padding:15px 90px 15px 60px; background-size:13px}
 		#intprojet #suiv span {padding:15px 60px 15px 105px; background-size:13px}	
 		
 /* Show */
-#contentshow {margin-left:267px; margin-right:66px}
+#contenushow {margin-left:267px; margin-right:66px}
 .margeshowbas {padding-bottom:80px}
 	.introshow h1 {bottom:40px}
 	.introshow h1 strong {padding-bottom:3px}
 	.introshow h1 i{width:150px; height:1px}
 	.introshow h1 span{padding-top:12px}
 /* dem*/	
-#contentdem {margin-left:267px; margin-right:66px}	
+#contenudem {margin-left:267px; margin-right:66px}	
 	#intdem h1 {margin-left:140px; padding-bottom:12px; padding-top:110px}
 	#intdem h2 {margin-left:140px; padding-top:21px; padding-bottom:3px}
 		#intdem h2 i {width:50px; height:3px}
@@ -803,12 +803,12 @@ body {font-size:0.75em}
 	#demphotos4 {margin-top:70px;padding-bottom:110px}
 
 /* Cuisines */					
-#contentcui {margin-left:267px; margin-right:66px}
+#contenucui {margin-left:267px; margin-right:66px}
 	
 /* Contact */ 
-#contentcont {margin-left:267px; margin-right:66px}
+#contenucont {margin-left:267px; margin-right:66px}
 	#contactint{width:800px}
-	#contentcont h1 {padding:70px 0 0 0}
+	#contenucont h1 {padding:70px 0 0 0}
 	#contactG {width:320px}
 		#contactG div {margin-top:30px; padding-top:7px; padding-left:30px}
 		#contactG div .trait {width:30px}
@@ -859,13 +859,13 @@ body {font-size:0.68em}
 	
 		
 /* Accueil */
-#gallery{margin-left:249px; margin-right:61px}
+#galerieAccueil{margin-left:249px; margin-right:61px}
 .H #intro { left:249px;bottom:-30px}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:40px; margin-right:30px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:40px; margin-right:30px}
 	#intro h3 {padding-top:30px; font-size:1.6em}
 	#intro p {margin-top:15px; line-height:1.7em; font-size:1em; letter-spacing:0.03em;}
 	#intro .suite {margin-bottom:70px}	
-#content {margin-top:140px; margin-left:249px; margin-right:61px}
+#contenu {margin-top:140px; margin-left:249px; margin-right:61px}
 .bandeauscroll{margin-top:140px}	
 		#valeurs1 h2, #valeurs2 h2 {padding-top:30px; font-size:1.6em; letter-spacing:0.05em}
 		#valeurs1 p, #valeurs2 p {margin-top:15px; padding-bottom:20px; line-height:1.8em; font-size:1em;  letter-spacing:0.03em;}
@@ -897,9 +897,9 @@ body {font-size:0.68em}
 #equipephoto {padding:40px}	
 
 /* RÃ©alisations */
-#contentrea {margin-left:249px; margin-right:61px; padding-top:30px}
-	#contentrea h1 {padding-left:35px; padding-top:4px}
-		#contentrea h1 i {width:35px; height:3px}
+#contenurea {margin-left:249px; margin-right:61px; padding-top:30px}
+	#contenurea h1 {padding-left:35px; padding-top:4px}
+		#contenurea h1 i {width:35px; height:3px}
 	#listeProjets {font-size:0.9em}
 	#listeProjets .colG {padding:30px 0 60px 0; width:42.5%; margin-left:6%; margin-right:3%;}
 	#listeProjets .colD {padding:30px 0 60px 0; width:42.5%; margin-right:3%;}
@@ -909,9 +909,9 @@ body {font-size:0.68em}
 			#listeProjets a .desc b { padding:16px 16px 0 16px; }	
 			
 /* Projet */
-#contentprojet {margin-left:249px; margin-right:61px}
+#contenuprojet {margin-left:249px; margin-right:61px}
 /* Show */
-#contentshow {margin-left:249px; margin-right:61px}
+#contenushow {margin-left:249px; margin-right:61px}
 .margeshowbas {padding-bottom:65px}
 	.introshow h1 {bottom:40px; font-size:0.9em}
 	.introshow h1 strong {padding-bottom:2px}
@@ -920,7 +920,7 @@ body {font-size:0.68em}
 	.plusshow p {padding:30px 0 15px 0; width:70%; line-height:1.7em}
 	.plusshow h2 {width:70%}
 /* dem*/	
-#contentdem {margin-left:249px; margin-right:61px}	
+#contenudem {margin-left:249px; margin-right:61px}	
 	#intdem h1 {margin-left:60px; padding-bottom:12px; padding-top:110px}
 	#intdem h2 {margin-left:60px; padding-top:21px; padding-bottom:3px}
 		#intdem h2 i {width:50px; height:3px}
@@ -939,7 +939,7 @@ body {font-size:0.68em}
 		#demphotos3 i {top:-100px; left:-115px; font-size:26em}
 	#demphotos4 {margin-top:70px;padding-bottom:110px}
 /* Cuisine */ 	
-#contentcui {margin-left:249px; margin-right:61px}
+#contenucui {margin-left:249px; margin-right:61px}
 	.intcui2 { margin-top:90px}
 	.intcui1 h1 {margin-left:110px; padding-bottom:10px; padding-top:90px}
 	.intcui1 h2 {margin-left:110px; padding-top:15px}
@@ -952,9 +952,9 @@ body {font-size:0.68em}
 	.biglien {margin:15px 0 0 0}
 	.margeB1 {margin-bottom:100px}
 /* Contact */ 
-#contentcont {margin-left:249px; margin-right:61px}
+#contenucont {margin-left:249px; margin-right:61px}
 	#contactint{width:450px}
-	#contentcont h1 {padding:70px 0 0 0}
+	#contenucont h1 {padding:70px 0 0 0}
 	#contactG {width:100%; float:none}
 	#contactD {width:100%; float:none; margin-left:0}
 	#ment {margin-top:70px; padding:22px 0 40px 0}	
@@ -1012,20 +1012,20 @@ body {font-size:0.8em}
 		#mentions a {color:#808080; text-decoration:none; display:block; padding-top:5px} #mentions a:hover {color:#CCC}
 			
 /* Accueil */	
-#gallery{margin-left:0; margin-right:0; padding-top:75px; height:auto; width:100%; overflow:visible; position:relative}
-	#gallery img {width:100%; height:auto; position:relative; top:0; left:0; margin-top:5px; margin-left:0; visibility:visible}	
-	#gallery #prem {visibility:visible}
-	.H #gallery img, .H #gallery #prem {visibility:hidden}
+#galerieAccueil{margin-left:0; margin-right:0; padding-top:75px; height:auto; width:100%; overflow:visible; position:relative}
+	#galerieAccueil img {width:100%; height:auto; position:relative; top:0; left:0; margin-top:5px; margin-left:0; visibility:visible}	
+	#galerieAccueil #prem {visibility:visible}
+	.H #galerieAccueil img, .H #galerieAccueil #prem {visibility:hidden}
 #intro { position:relative; background-color:#292a3f; color:#FFF; z-index:100;}
 .H #intro {visibility:hidden; left:0; position:relative; bottom:0; top:0; width:100%;  margin:0 auto}
-	#intro h3, #intro p, #intro .suite, #content h2, .bandeauscroll p {margin-left:30px; margin-right:25px}
+	#intro h3, #intro p, #intro .suite, #contenu h2, .bandeauscroll p {margin-left:30px; margin-right:25px}
 	#intro h3 {margin-top:5px; padding-top:50px; font-size:1.4em; letter-spacing:0.05em}
 	#intro p {margin-top:20px; margin-bottom:0; font-size:0.9em; line-height:2.1em; letter-spacing:0.04em; display:block; padding-bottom:60px}
 	#intro .suite {display:none}
 	
-#content {margin:0; padding:0; display:block; position:relative}
-.H #content {visibility:hidden}
-	#content br {display:none}
+#contenu {margin:0; padding:0; display:block; position:relative}
+.H #contenu {visibility:hidden}
+	#contenu br {display:none}
 	#bas br {display:block}
 .bandeauscroll{margin:0; padding:0; display:block; position:relative}
 	.bandeauscroll br {display:block}	
@@ -1040,7 +1040,7 @@ body {font-size:0.8em}
 	.titrecentre i {width:100px}
 	.titrecentre p {margin-top:15px; font-size:0.9em; line-height:2.1em; letter-spacing:0.04em; padding:0 15px}	
 .larggrand {width:85%}
-	.larggrand p {padding:0} #content .larggrand p br {display:inline-block;font-size:0.9em; line-height:2.1em; letter-spacing:0.04em; }
+	.larggrand p {padding:0} #contenu .larggrand p br {display:inline-block;font-size:0.9em; line-height:2.1em; letter-spacing:0.04em; }
 	.larggrand h1 {margin:0;font-size:0.9em; line-height:2.1em; letter-spacing:0.04em; }
 	
 #projetsAccueil {padding:20px 10px 0 10px}
@@ -1059,10 +1059,10 @@ body {font-size:0.8em}
 #equipephoto {padding:20px }
 
 /* RÃ©alisations */
-#contentrea {margin-left:auto; margin-right:auto; padding-top:120px; z-index:50}
-.H #contentrea {visibility:hidden}
-	#contentrea h1 {font-size:1.8em; padding-bottom:0px; padding-left:0px; padding-top:0px; padding-bottom:15px; position:relative; display:block; text-align:center}
-		#contentrea h1 i {top:100%; left:50%; margin-left:0px; width:0px; height:1px}
+#contenurea {margin-left:auto; margin-right:auto; padding-top:120px; z-index:50}
+.H #contenurea {visibility:hidden}
+	#contenurea h1 {font-size:1.8em; padding-bottom:0px; padding-left:0px; padding-top:0px; padding-bottom:15px; position:relative; display:block; text-align:center}
+		#contenurea h1 i {top:100%; left:50%; margin-left:0px; width:0px; height:1px}
 	#listeProjets .colG {float:none; width:85%; margin-left:auto; margin-right:auto; padding:40px 0 0 0}
 	#listeProjets .colD {float:none; width:85%; margin-right:auto; margin-left:auto; padding:0 0 60px 0}
 		#listeProjets li {display:block; margin-bottom:40px}
@@ -1078,8 +1078,8 @@ body {font-size:0.8em}
 			#listeProjets a .desc b { display:none}
 			
 /* Projet */
-#contentprojet {margin-left:auto; margin-right:auto; padding-top:80px}
-.H #contentprojet {visibility:hidden}
+#contenuprojet {margin-left:auto; margin-right:auto; padding-top:80px}
+.H #contenuprojet {visibility:hidden}
 		.grande #flecheProjet { display:none}	
 	#intprojet h2 {font-size:1.8em; letter-spacing:0.10em; padding-top:40px; padding-bottom:15px}
 	#traitProj {width:50px; height:1px}	
@@ -1092,13 +1092,13 @@ body {font-size:0.8em}
 	#intprojet .deux {width:80%; margin:0 auto}
 		#intprojet .deux .imgG {width:100%; float:none; margin:50px 0}
 		#intprojet .deux .imgD {width:100%; float:none; margin:50px 0}		
-	#intprojet #prec, #contentprojet #suiv {font-size:0.6em; letter-spacing:0.15em;}	
+	#intprojet #prec, #contenuprojet #suiv {font-size:0.6em; letter-spacing:0.15em;}	
 		#intprojet #prec span { padding:10px 20px 10px 40px; background-position:10% 50%;background-size:8px}
 		#intprojet #suiv span { padding:10px 40px 10px 20px; background-position:90% 50%;background-size:8px}
 						
 /* Show */
-#contentshow {margin-left:auto; margin-right:auto; width:100%;padding-top:80px}
-.H #contentshow {visibility:hidden}
+#contenushow {margin-left:auto; margin-right:auto; width:100%;padding-top:80px}
+.H #contenushow {visibility:hidden}
 	.introshow {width:100%; position:relative; overflow:hidden; background-color:#292a3f}
 	.introshow img { display:none}	
 	.introshow h1 {position:relative; bottom:0; left:0; padding:30px 0}
@@ -1113,8 +1113,8 @@ body {font-size:0.8em}
 		#col1 a, #col2 a, #col3 a {display:block; width:100%; margin-top:20px; overflow:hidden; cursor:default}
 		
 /* DÃ©marche*/					
-#contentdem {margin-left:auto; margin-right:auto;z-index:30}
-.H #contentdem {visibility:hidden}	
+#contenudem {margin-left:auto; margin-right:auto;z-index:30}
+.H #contenudem {visibility:hidden}	
 	#intdem h1 {margin-left:5%; font-size:1.4em; padding-bottom:10px; padding-top:115px}
 	#intdem h2 {margin-left:5%; font-size:1em; padding-top:15px; padding-bottom:4px; margin-top:30px}
 		#intdem h2 i {width:40px; height:4px}		
@@ -1139,8 +1139,8 @@ body {font-size:0.8em}
 		#demphotos4 #i6 {width:100%; float:none}
 
 /* Cuisines */					
-#contentcui {margin-left:auto; margin-right:auto; z-index:30}
-.H #contentcui {visibility:hidden}	
+#contenucui {margin-left:auto; margin-right:auto; z-index:30}
+.H #contenucui {visibility:hidden}	
 	.intcui2 { margin-top:80px}
 	.intcui1 h1 {margin-left:5%; font-size:1.4em; padding-bottom:10px; padding-top:115px}
 	.intcui1 h2 {margin-left:5%; font-size:1em; padding-top:15px; margin-top:30px}
@@ -1159,10 +1159,10 @@ body {font-size:0.8em}
 	.margeB1 {margin-bottom:150px}
 
 /* Contact */ 
-#contentcont {margin-left:0; margin-right:0; padding-top:80px}
-.H #contentcont {visibility:hidden}
+#contenucont {margin-left:0; margin-right:0; padding-top:80px}
+.H #contenucont {visibility:hidden}
 	#contactint{width:90%; max-width:450px; margin:0 auto}
-	#contentcont h1 {font-size:0.9em}
+	#contenucont h1 {font-size:0.9em}
 	#ment a {display:block; padding-top:5px}
 #formulaire {min-width:270px; width:90%; margin:12px auto 0 auto; padding:0}		
 	#formulaire .formgauche {width:95%; margin:7px 0 0 0}
