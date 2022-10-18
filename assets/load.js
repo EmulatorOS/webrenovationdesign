@@ -626,65 +626,7 @@ function GLOBAL() {
                     ScrollValeurs()
                 }
                 $(window).addEvent("scroll", ScrollValeurs);
-                var a1 = $("projetsAccueil");
-                var bh = $$("#projetsAccueil a");
-                var ao = $$("#projetsAccueil b");
-                var bF = $$("#projetsAccueil i");
-                var z = [];
-                var a0 = [];
-                largeurI = $(bF[0]).getSize().x;
-                for (i = 0; i < bh.length; i++) {
-                    z[i] = $(ao[i]).getSize().x;
-                    a0[i] = $(ao[i]).getSize().y;
-                    TweenLite.set(ao[i], {
-                        marginTop: -a0[i] / 2,
-                        marginLeft: -z[i] / 2,
-                        opacity: 0,
-                        y: 40,
-                        visibility: "visible"
-                    });
-                    TweenLite.set(bF[i], {
-                        width: 0
-                    });
-                    $(bh[i]).addEvent("mouseenter", function() {
-                        var bI = $(this).getChildren("b");
-                        TweenLite.to(bI[0], 0.6, {
-                            y: 0,
-                            opacity: 1
-                        });
-                        var Z = $(this).getChildren("img");
-                        TweenLite.to(Z[0], 1.5, {
-                            scaleX: 1.15,
-                            scaleY: 1.15,
-                            rotationZ: 0,
-                            force3D: false
-                        });
-                        var bJ = $(bI[0]).getChildren("i");
-                        TweenLite.to(bJ[0], 0.8, {
-                            width: largeurI,
-                            ease: Power4.easeOut
-                        })
-                    });
-                    $(bh[i]).addEvent("mouseleave", function() {
-                        var bI = $(this).getChildren("b");
-                        TweenLite.to(bI[0], 0.9, {
-                            y: 40,
-                            opacity: 0
-                        });
-                        var Z = $(this).getChildren("img");
-                        TweenLite.to(Z[0], 0.9, {
-                            scaleX: 1,
-                            scaleY: 1,
-                            rotationZ: 0,
-                            force3D: false
-                        });
-                        var bJ = $(bI[0]).getChildren("i");
-                        TweenLite.to(bJ[0], 0.6, {
-                            width: 0,
-                            ease: Power4.easeOut
-                        })
-                    })
-                }
+                
             }
             if ($("contenurea") != null && $("contenurea") != undefined) {
                 if ($("actus") != null && $("actus") != undefined) {
