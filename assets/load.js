@@ -1615,7 +1615,3 @@ function GLOBAL() {
     }
     ).delay(100)
 }
-window.addEvent("unload", function() {}, false);
-window.addEvent("load", function() {
-    GLOBAL()
-});
